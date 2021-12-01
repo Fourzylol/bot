@@ -31,7 +31,7 @@ const moment = require('moment-timezone')
 const setting = JSON.parse(fs.readFileSync('./settings.json'))
 const { wait,simih,getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, banner, close } = require('./lib/functions')
 const { color } = require('./lib/color')
-const gcrevoke = ["62887435047326-1604595598@g.us"]
+const gcrevoke = ["6285748600473@g.us"]
 blocked = []
 
 require('./index.js')
@@ -127,8 +127,8 @@ alpha.on('group-participants-update', async (anu) => {
       } else if (anu.action == 'promote') {
       	falfa = { key: {fromMe: false,participant: "0@s.whatsapp.net",
 		remoteJid: "0@s.whatsapp.net"},
-message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us",
-"inviteCode": "mememteeeekkeke","groupName": "Alphabot", 
+message: {"groupInviteMessage": {"groupJid": "6285748600473@g.us",
+"inviteCode": "mememteeeekkeke","groupName": "Fourzybot", 
 "caption": `Made With ❣️`, 'jpegThumbnail': fs.readFileSync(`./image/${setting.thumbnail}`)}}}
          
 			const mdata = await alpha.groupMetadata(anu.jid)
